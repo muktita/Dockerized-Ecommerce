@@ -1,4 +1,4 @@
-#SneakPeak
+###SneakPeak
 SneakPeak is a cutting-edge, microservice-based ecommerce platform, tailored for hypebeast sneaker enthusiasts. With its Docker-powered deployment and scalability, SneakPeak delivers an unparalleled shopping experience, focusing on the latest and most exclusive sneaker releases.
 
  //Replace with the path to your logo image
