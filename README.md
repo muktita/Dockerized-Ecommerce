@@ -1,11 +1,20 @@
-# SneakPeak
-SneakPeak is a cutting-edge, microservice-based ecommerce platform, tailored for hypebeast sneaker enthusiasts. With its Docker-powered deployment and scalability, SneakPeak delivers an unparalleled shopping experience, focusing on the latest and most exclusive sneaker releases.
+# SneakPeak E-Commerce Website
 
-//Replace with the path to your logo image
+Welcome to the SneakPeak E-Commerce Website, a sophisticated and stylish platform designed for sneaker enthusiasts. This project showcases a microservice architecture, fully Dockerized for easy deployment and scaling, offering a robust and seamless shopping experience for the latest hypebeast sneaker collections.
 
-## Branding 
-Color Palette Primary Color (Deep Charcoal): #333333 
-Secondary Color (Off-White): #F4F4F4 
-Accent Color (Crimson Red): #DC143C Text Color (Dark Gray): #555555 
-Typography Primary Font: 'Montserrat', sans-serif 
-Headings and Logo: Weight 700 Navbar Items: Weight 600 Secondary Font: 'Open Sans', sans-serif Body Text: Weight 400 Emphasized Text: Weight 600 Logo and Navigation Bar Logo: 'Montserrat', Bold, 24px, Off-White (#F4F4F4) Navbar: Deep Charcoal (#333333) Background, Off-White Text Buttons and Call-to-Actions Primary Button: Crimson Red Background, Off-White Text Secondary Button: Crimson Red Border and Text, Transparent Background Features Exclusive Sneaker Catalog: A curated collection of the latest and most sought-after sneakers. Responsive Design: Seamless shopping experience across devices. User-Friendly Interface: Intuitive navigation and minimalist design. Secure Checkout: Safe and secure transactions.
+## Key Features
+
+- Microservice Architecture: Each feature runs as a separate service, ensuring scalability and ease of maintenance.
+- Docker Integration: Simplifies deployment and development with containerization.
+- Top 10 Best Sellers: Dynamically updated list of the most popular sneakers.
+- Last Viewed Item: Personalized user experience by tracking and displaying the last viewed item.
+- Shopping Cart Functionality: A seamless and intuitive cart experience for users.
+- User Authentication: Secure login and logout system, offering a personalized shopping experience.
+
+## Technologies Used
+
+- Frontend: HTML, CSS, JavaScript - for a responsive and dynamic user interface.
+- Backend: NodeJS, ExpressJS - managing microservices.
+- Database: MySQL and Redis - for storing user data, product information, etc.
+- Docker: For containerizing the microservices.
+  Other Microservices Tools: [Any additional tools or frameworks used in microservices]
