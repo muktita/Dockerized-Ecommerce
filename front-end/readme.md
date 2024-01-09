@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 # Color Palette:
+=======
+###SneakPeak
+SneakPeak is a cutting-edge, microservice-based ecommerce platform, tailored for hypebeast sneaker enthusiasts. With its Docker-powered deployment and scalability, SneakPeak delivers an unparalleled shopping experience, focusing on the latest and most exclusive sneaker releases.
+
+ //Replace with the path to your logo image
+
+##Branding
+Color Palette
+>>>>>>> 77bdf46046e73601931d259766d4957fbf5cf16c
 Primary Color (Deep Charcoal): #333333
 Usage: Navbar, Footer, Text Headings
 Secondary Color (Off-White): #F4F4F4
@@ -6,6 +16,7 @@ Usage: Backgrounds, Card backgrounds
 Accent Color (Crimson Red): #DC143C
 Usage: Call-to-action buttons, Links on hover, Highlight elements
 Text Color (Dark Gray): #555555
+<<<<<<< HEAD
 Usage: Body text, Descriptions
 # Typography:
 Primary Font (Headings and Logo): 'Montserrat', sans-serif
@@ -38,3 +49,23 @@ Consistency: Ensure consistent use of colors and fonts across all pages.
 Accessibility: Text should be easily readable, with sufficient contrast between text and background colors.
 Responsive Design: Maintain branding consistency across various devices and screen sizes.
 This branding guide provides a modern, stylish, and cohesive look for SneakPeak, aimed at appealing to the hypebeast audience. The use of bold colors, clean lines, and modern typography should resonate well with the target demographic.
+=======
+Typography
+Primary Font: 'Montserrat', sans-serif
+Headings and Logo: Weight 700
+Navbar Items: Weight 600
+Secondary Font: 'Open Sans', sans-serif
+Body Text: Weight 400
+Emphasized Text: Weight 600
+Logo and Navigation Bar
+Logo: 'Montserrat', Bold, 24px, Off-White (#F4F4F4)
+Navbar: Deep Charcoal (#333333) Background, Off-White Text
+Buttons and Call-to-Actions
+Primary Button: Crimson Red Background, Off-White Text
+Secondary Button: Crimson Red Border and Text, Transparent Background
+Features
+Exclusive Sneaker Catalog: A curated collection of the latest and most sought-after sneakers.
+Responsive Design: Seamless shopping experience across devices.
+User-Friendly Interface: Intuitive navigation and minimalist design.
+Secure Checkout: Safe and secure transactions.
+>>>>>>> 77bdf46046e73601931d259766d4957fbf5cf16c
