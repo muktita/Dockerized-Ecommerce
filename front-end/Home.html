@@ -1,33 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>SneakPeak</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-</head>
-<body>
-
-<header class="navbar">
-    <div class="logo">SneakPeak</div>
-    <nav>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">SNEAKPEAK</div>
+      <nav>
         <a href="#newReleases">New Releases</a>
         <a href="#exclusive">Exclusive</a>
         <a href="#trending">Trending</a>
         <a href="#sale">Sale</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+        <a href="#contact">LOG IN</a>
+      </nav>
+    </header>
 
-<main>
-    <section class="hero">
+    <main>
+      <!-- Image carousel -->
+      <div class="carousel">
+        <div class="carousel-images">
+          <img src="./img/jordan1.jpg" alt="Air Jordan 1" />
+          <img src="./img/nikedunk.jpg" alt="Nike Dunk Low" />
+          <img src="./img/jordan4.jpg" alt="Air Jordan 4" />
+        </div>
+      </div>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          let currentIndex = 0;
+          const images = document.querySelectorAll(".carousel-images img");
+          const imageCount = images.length;
+
+          function changeImage() {
+            images[currentIndex].classList.remove("active");
+
+            currentIndex = (currentIndex + 1) % imageCount; // Cycle through the images
+
+            images[currentIndex].classList.add("active");
+          }
+
+          setInterval(changeImage, 10000); // Change image every 3 seconds
+
+          changeImage(); // Initialize first image
+        });
+      </script>
+      <!-- Image carousel Ends-->
+      <section class="hero">
         <h1>Welcome to SneakPeak</h1>
         <p>Discover the latest and most exclusive sneakers.</p>
-    </section>
-    <!-- Further content can be added here -->
-</main>
+      </section>
+      <!-- Further content can be added here -->
+    </main>
 
-<footer class="footer">
-    <p>&copy; 2024 SneakPeak. All rights reserved.</p>
-</footer>
-
-</body>
+    <footer class="footer">
+      <p>&copy; 2024 SneakPeak. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
